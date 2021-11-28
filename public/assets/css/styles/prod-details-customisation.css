@@ -1,0 +1,298 @@
+button:hover {
+  opacity: 0.7;
+}
+
+.food-main-wrapper {
+  padding-top: 60px;
+}
+
+.food-set-pagination-nav {
+  padding: 10px 20px;
+}
+
+.food-set-pagination-nav .food-pagination-btn {
+  border: hidden;
+  background-color: transparent;
+  color: #8a8a8a;
+  font-family: "Overpass";
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.food-set-pagination-nav button:first-child {
+  margin-right: 15px;
+}
+
+.food-set-pagination-nav .food-pagination-btn-active {
+  color: #000;
+}
+
+.food-size-wrapper {
+  padding: 10px 20px;
+}
+
+.food-size-container {
+  width: 100%;
+  background-color: #fff;
+  border: hidden;
+  border-radius: 12pt;
+  padding: 15px 20px;
+  overflow: hidden;
+}
+
+.heading-small {
+  color: #404b69;
+  font-size: "Overpass" !important;
+  font-weight: 900;
+  text-transform: none;
+}
+
+.fd-sz-head .text-muted {
+  font-size: 0.8rem;
+  color: #444343;
+  font-weight: 100;
+}
+
+.size-choose-radio {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.size-choose-radio p {
+  flex: 1;
+}
+
+.toppings-wrapper {
+  padding: 10px 0 10px 20px;
+  overflow: hidden;
+}
+
+.toppings-container {
+  width: 100%;
+  background-color: #fff;
+  border: hidden;
+  border-radius: 12pt 0 0 12pt;
+  padding: 15px 20px;
+  overflow: hidden;
+}
+
+.toppings-item-flexbox {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  overflow-x: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+  /* width: fit-content; */
+}
+
+.topping-item {
+  margin: 0 15px 0 0;
+  min-width: 46pt;
+}
+
+.topping-item .topping-img {
+  border-radius: 10pt;
+  border: 1pt solid #8a8a8a;
+  overflow: hidden;
+  padding: 5px 5px;
+}
+
+.topping-item .topping-img-active {
+  border: 1pt solid #ff118e;
+}
+
+.topping-item p {
+  margin-bottom: 0 !important;
+  margin-top: 7px;
+  color: #404b69;
+  font-size: 0.85rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.onwards-text {
+  font-size: 0.8rem;
+  color: #404b69;
+  font-family: "Overpass";
+  font-weight: 600;
+  /* line-height: 0.8rem; */
+  margin-top: -5px;
+}
+
+/* repeat toppings modal */
+.rep-modal-overlay {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  /* background-color: #F8F6F2; */
+  backdrop-filter: blur(4px);
+  /* backdrop-filter: brightness(-30%); */
+  /* backdrop-filter: opacity(3%); */
+  max-width: 450px;
+  margin: auto;
+}
+
+.rep-modal {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #0000006e;
+}
+
+.rep-modal-inner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: hidden;
+  border-radius: 26pt 26pt 0 0;
+  padding: 25px 20px;
+}
+
+.rep-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.rep-modal-title {
+  /* margin-bottom: 10px; */
+}
+
+.rep-modal-title p {
+  font-family: "Overpass";
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #404b69;
+}
+
+.rep-modal-close {
+  margin-top: -10px;
+}
+
+.rep-modal-close i {
+  font-size: 1rem;
+}
+.rep-modal-close:hover {
+  opacity: 0.6;
+}
+
+.rep-modal-body {
+}
+
+.r-m-heading {
+  font-size: 0.95rem;
+  color: #404b69;
+  font-family: "Overpass" !important;
+  font-weight: 600;
+}
+
+.customisation-list {
+}
+
+.customisation-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.customisation-list ul li {
+  font-size: 0.8rem;
+  color: #444343;
+  padding: 2px 0;
+}
+
+.add-new-btn {
+  border: hidden;
+  border-radius: 12pt;
+  padding: 15px 15px;
+  background-color: #fcf0c6;
+  flex: 1;
+  font-size: 0.95rem;
+  color: #404b69;
+  font-weight: 900;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.repeat-btn {
+  border: hidden;
+  border-radius: 12pt;
+  padding: 15px 15px;
+  background-color: #ffde4c;
+  flex: 1;
+  font-size: 0.95rem;
+  color: #404b69;
+  font-weight: 900;
+  text-align: center;
+  margin-left: 10px;
+}
+
+/* repeat toppings modal ends */
+
+/* custom radio btns */
+.custom-radio [type="radio"]:checked,
+.custom-radio [type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+.custom-radio [type="radio"]:checked + label,
+.custom-radio [type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 0.9rem;
+  display: inline-block;
+  color: #404b69;
+}
+.custom-radio [type="radio"]:checked + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ff118e;
+  border-radius: 100%;
+  background: #fff;
+}
+.custom-radio [type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+}
+.custom-radio [type="radio"]:checked + label:after,
+.custom-radio [type="radio"]:not(:checked) + label:after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  background: #ff118e;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.custom-radio [type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.custom-radio [type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}

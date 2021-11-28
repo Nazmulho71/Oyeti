@@ -1,0 +1,88 @@
+.special-req-cont {
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+.special-req-box {
+  width: 100%;
+  background-color: #fff;
+  border: hidden;
+  border-radius: 12pt;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sp-req-text {
+  padding: 10px 0 10px 15px;
+}
+
+.sp-req-text h5 {
+  font-size: 0.9rem;
+  font-family: "Overpass";
+  font-weight: bold;
+  color: #404b69;
+}
+
+.sp-req-text .text-muted {
+  font-size: 0.8rem;
+  color: #8a8a8a;
+}
+
+.sp-req-btn {
+  background-color: #fcf0c6;
+  padding: 15px 25px 15px 30px;
+  border-radius: 0 12pt 12pt 0;
+}
+
+.sp-req-btn:hover {
+  opacity: 0.8;
+}
+
+.qt-pr-container {
+  padding: 10px 25px 20px 25px;
+}
+
+.qt-pr-flexbox {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bill-details-container {
+  padding: 20px;
+}
+
+.bill-details-inner {
+}
+
+.bill-amount-details-cont {
+}
+
+.bill-det-amt-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+}
+
+.bill-det-amt-item p {
+  font-size: 0.8rem;
+  color: #404b69;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.bill-details-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+}
+
+.bill-details-total p {
+  font-size: 1rem;
+  color: #404b69;
+  font-weight: 600;
+  margin-bottom: 0;
+}

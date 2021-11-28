@@ -1,0 +1,100 @@
+::-webkit-calendar-picker-indicator {
+    filter: invert(0);
+}
+
+.background-white {
+    background-color: #fff !important;
+}
+
+.hr-10 {
+    background-color: #EBEBEB;
+    height: 5px !important;
+    margin: 0 !important;
+}
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.payment-section-cont {
+    padding: 20px;
+}
+
+.heading-supporter {
+    font-weight: 400 !important;
+    opacity: 0.6;
+    font-size: 0.7rem;
+}
+
+.payment-option-name-cont {
+    border: 1pt solid #ebebeb;
+    border-radius: 7pt;
+    padding: 8px 12px;
+}
+
+.payment-option-name-cont-active {
+    border: 1pt solid #FF118E;
+    background-color: #FFFBEC;
+}
+
+.pon-icon {
+    line-height: 1rem;
+    margin-right: 15px;
+}
+
+.pon-icon i {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.pon-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.pon-amount {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.add-pay-opt-cont {
+    display: flex;
+    align-items: center;
+    margin-top: 20px !important;
+}
+
+.new-pay-opt-add-text {
+    margin-left: 10px !important;
+}
+
+.new-pay-opt-add-text p {
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 0.9rem;
+}
+
+.new-pay-opt-add-text .text-muted {
+    font-size: 0.75rem !important;
+    font-weight: 100 !important;
+    opacity: 0.6 !important;
+}
+
+.pay-opt-now-btn-cont {
+    padding: 20px;
+}
+
+.pay-opt-now-btn-cont button {
+    border-radius: 5pt;
+    padding: 10px 20px;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    border: hidden;
+    background-color: #3E0F82;
+}
+
+.pay-icon-img {
+    width: 25px;
+}

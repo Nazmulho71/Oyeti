@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+  max-width: 450px;
+  margin: auto;
+  overflow-y: scroll;
+}
+
+.App::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.App {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+* {
+  /* overflow-x: hidden; */
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass";
+}
+
+.margintop {
+  margin-top: 175px !important;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Overpass";
+} */
+
+.wrapper {
+  max-width: 100%;
+  margin: auto;
+  min-height: 100%;
+  min-height: -webkit-fill-available;
+  /* max-height: 1000px; */
+  position: relative;
+  background: "#E0E5EC";
+}
+
+.payment-wrapper {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 100% !important;
+  min-height: 100vh !important;
+  background: #fff !important;
+}
+
+.getStartedWrapper {
+  max-width: 100% !important;
+  margin: auto !important;
+  height: 100vh !important; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100) !important;
+  min-height: calc(var(--vh, 1vh) * 100) !important;
+  /* max-height: 1000px; */
+  position: relative !important;
+}
+
+.main-container {
+  max-width: 500px;
+  margin: auto;
+  width: 100%;
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100) !important;
+  /* max-height: 1000px; */
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5755252784707633) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    /* url("../public/assets/img/home.png"); */
+      url("https://voice-server.s3.ap-south-1.amazonaws.com/img/1.gif");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative !important;
+}
+
+.home-screen-text {
+  color: #fff !important;
+}
+
+.home-screen-text .text-muted {
+  color: #fbfbfb !important;
+  font-size: 10pt;
+}
+
+.home-screen-text h3 {
+  font-size: 2.2rem;
+  font-weight: 100;
+  text-align: left;
+  letter-spacing: 1px;
+  font-family: "Overpass";
+}
+
+.home-screen-text h3::after {
+  content: "";
+  display: block;
+  width: 40%;
+  background-color: #fff;
+  height: 1px;
+  margin: 0px 0 5px 0;
+}
+
+.prod-rating {
+  font-size: 9pt;
+  color: #ffc676;
+  margin-bottom: 7px;
+  margin-top: 5px;
+}
+
+.share-btn:hover {
+  opacity: 0.8;
+}
+
+.bottom-btn-nav-cont {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+.home-nav-btns {
+  max-width: 68pt;
+  width: 100%;
+}
+
+.home-nav-btns button {
+  background-color: #3e0f82;
+  border-radius: 28pt;
+  padding: 7px 15px;
+  color: #fff;
+  border: hidden;
+  outline: hidden;
+  font-size: 11pt;
+  font-family: "Overpass";
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+}
+
+.home-nav-btns:hover {
+  /* filter: blur(1px); */
+  /* -webkit-filter: blur(1px); */
+  background-color: #fffefe75;
+  /* background-image: url('../img/icons/Darked\ -\ 25\ %\ opacity\ #151515.svg'); */
+  border-radius: 28pt;
+  border-width: 2px;
+  /* -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(#fff), color-stop(0.5, #fff), color-stop(0.5, #66cc00)) 21 30 30 21 repeat repeat; */
+}
+
+.home-nav-btns:hover button {
+  background-color: transparent;
+  color: #000;
+}

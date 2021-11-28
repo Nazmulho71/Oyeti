@@ -1,0 +1,132 @@
+.fixed-swip-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  padding: 17px 20px;
+}
+.ReactSwipeButton {
+  float: left;
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+.ReactSwipeButton,
+.ReactSwipeButton * {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+.rsbContainer {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: #e0e5ec;
+  box-shadow: inset -3px -3px 7px #ffffff,
+    inset 2px 2px 5px rgba(136, 165, 191, 0.38);
+  border-radius: 16px;
+  position: relative;
+  /* box-shadow: inset 1px 1px 4px rgba(0,0,0,0.1); */
+  overflow: hidden;
+}
+.rsbContainer-dark {
+  background: #2c2f33;
+  box-shadow: inset -5px -5px 15px #3b4451, inset 5px 5px 15px #000000;
+}
+.rsbContainerUnlocked {
+  width: 50% !important;
+  margin-left: 25%;
+  transition: 0.5s;
+  cursor: default;
+}
+.rsbContainerUnlocked .rsbcSlider {
+  left: 100% !important;
+  cursor: default;
+  pointer-events: none;
+}
+.rsbContainerUnlocked .rsbcSliderArrow {
+  transition: 0.5s;
+  margin-right: -60px;
+}
+.rsbContainerUnlocked .rsbcSliderCircle {
+  transition: 0.5s;
+  margin-right: -60px;
+}
+.rsbcSlider {
+  float: left;
+  width: 100%;
+  position: absolute;
+  height: 50px;
+  top: 0;
+  left: 50px;
+  margin-left: -100%;
+  background: #e0e5ec;
+  /* box-shadow: inset -3px -3px 7px #404B69, inset 2px 2px 5px rgb(18, 28, 48); */
+  border-radius: 16px;
+  z-index: 100;
+  /* box-shadow: 1px 1px 5px rgba(0,0,0,0.3); */
+  cursor: pointer;
+}
+.rsbcSliderText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Overpass";
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.rsbcSliderArrow {
+  float: left;
+  position: absolute;
+  transform: rotate(45deg);
+  border: 2px solid white;
+  height: 8px;
+  width: 8px;
+  top: 50%;
+  right: 22px;
+  margin-top: -6px;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform-origin: center;
+  z-index: 10;
+}
+.rsbcSliderCircle {
+  position: absolute;
+  right: 0;
+  background: #e0e5ec;
+  border: none;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  /* box-shadow: inset -3px -3px 7px #404B69, inset 2px 2px 5px rgb(18, 28, 48); */
+  border-radius: 16px;
+}
+.rsbcText {
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Overpass";
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  color: #404b69;
+}
+.rsbcText-dark {
+  color: white;
+}

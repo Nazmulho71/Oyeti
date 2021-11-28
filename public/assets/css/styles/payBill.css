@@ -1,0 +1,283 @@
+* {
+  /* overflow-x: hidden; */
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass";
+}
+/* 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Overpass";
+} */
+
+button:hover {
+  opacity: 0.8;
+}
+
+input:focus,
+.form-control:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  /* max-height: 1000px; */
+  background-color: #fff;
+}
+
+.pay-bill-main-cont {
+  padding: 0 10px;
+  background-color: #fff;
+}
+
+.go-back {
+  padding-left: 10px;
+}
+
+.go-back:hover {
+  opacity: 0.6;
+}
+
+.go-back i {
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.share-btn {
+  margin-right: 10px;
+}
+
+.share-btn img {
+  fill: #000;
+}
+
+.share-btn:hover {
+  opacity: 0.6;
+}
+
+.bill-amount-cont {
+  flex: 5;
+}
+
+.pay-bill-img {
+  flex: 4;
+}
+
+.bill-amt {
+  color: #404b69;
+  font-size: 12pt;
+  font-weight: 900;
+  font-family: "Overpass";
+  margin-bottom: 3px;
+}
+
+.pay-bill-Inp {
+}
+
+.pay-bill-Inp .input-group-prepend .input-group-text {
+  color: #000;
+  font-weight: 900;
+  font-size: 2.5rem;
+  padding: 0 10px 0 0;
+  border: hidden !important;
+  outline: none !important;
+  background-color: transparent;
+}
+
+.pay-bill-Inp input {
+  border: hidden !important;
+  outline: transparent !important;
+  background-color: transparent !important;
+  padding: 0pt;
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 900;
+  font-family: "Overpass";
+}
+
+.pay-bill-Inp ::placeholder,
+.pay-bill-Inp .form-control ::-webkit-input-placeholder {
+  font-size: 2rem !important;
+  color: #b7b7b7 !important;
+  font-weight: 900;
+}
+
+.bill-amount-cont .text-muted {
+  color: #151515 !important;
+  font-size: 0.8rem !important;
+}
+
+.bold-hr-sep {
+  display: block;
+  height: 25px;
+  background-color: #f8f6f2;
+  width: 100%;
+}
+
+.keyboard-cont {
+  padding: 15px 10px;
+  padding-bottom: 100px;
+}
+
+.key-brd-cont-inner {
+  border: hidden;
+  border-radius: 26pt;
+  background-color: #f7f9ff;
+  padding: 15px;
+}
+
+.key-brd-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.key-brd-flex button {
+  border: hidden;
+  border-radius: 18pt;
+  flex: 1;
+  max-width: 30%;
+  padding: 15px;
+  background-color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 0px 9px 0px #00000029;
+  -moz-box-shadow: 0px 0px 9px 0px #00000029;
+  box-shadow: 0px 0px 9px 0px #00000029;
+  text-align: center;
+}
+
+.key-brd-flex button:hover {
+  opacity: 0.6;
+}
+
+.proceed-btn-cont {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 450px;
+  padding: 20px 20px;
+  background-color: #fff;
+  z-index: 2;
+  width: 100%;
+  -webkit-box-shadow: 0px -1px 4px 0px #00000029;
+  -moz-box-shadow: 0px -1px 4px 0px #00000029;
+  box-shadow: 0px -1px 4px 0px #00000029;
+}
+
+.proceed-btn-cont button {
+  background-color: #3e0f82;
+  border-radius: 8pt;
+  border: hidden;
+  padding: 10px 15px;
+  width: 100%;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.proceed-btn-cont button:disabled {
+  background-color: #b7b7b7;
+}
+
+.proceed-btn-cont button:hover {
+  opacity: 0.6;
+}
+
+.payBillStatusBar {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  max-width: 450px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  padding: 0 11px;
+}
+
+@media only screen and (max-width: 425px) {
+  .bold-hr-sep {
+    margin: 15px 0 !important;
+    height: 17px;
+  }
+  .keyboard-cont {
+    padding: 0 15px !important;
+    padding-bottom: 80px !important;
+  }
+  .key-brd-cont-inner {
+    padding: 15px;
+  }
+  .key-brd-flex button {
+    padding: 13px 10px;
+    font-size: 1.6rem;
+    max-width: 28%;
+  }
+  .key-brd-flex {
+    margin: 15px 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .bold-hr-sep {
+    margin: 12px 0 !important;
+    height: 15px;
+  }
+  .keyboard-cont {
+    padding: 0 15px !important;
+    padding-bottom: 80px !important;
+  }
+  .key-brd-cont-inner {
+    padding: 8px;
+  }
+  .key-brd-flex button {
+    padding: 11px 8px;
+    font-size: 1.65rem;
+    max-width: 28%;
+  }
+  .key-brd-flex {
+    margin: 15px 0;
+  }
+  .proceed-btn-cont {
+    padding: 12px 12px !important;
+  }
+  .pay-bill-img {
+    flex: 3 1;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .bold-hr-sep {
+    margin: 7px 0 !important;
+    height: 15px;
+  }
+  .keyboard-cont {
+    padding: 0 15px !important;
+    padding-bottom: 80px !important;
+  }
+  .key-brd-cont-inner {
+    padding: 8px;
+  }
+  .key-brd-flex button {
+    padding: 10px 8px;
+    font-size: 1.5rem;
+    max-width: 26%;
+  }
+  .key-brd-flex {
+    margin: 15px 0;
+  }
+  .proceed-btn-cont {
+    padding: 12px 12px !important;
+  }
+}

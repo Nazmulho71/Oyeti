@@ -1,0 +1,10 @@
+import "./styles/bill.css";
+import "./styles/coupon.css";
+import "./styles/getStarted.css";
+import "./styles/home.css";
+import "./styles/myOrder.css";
+import "./styles/payBill.css";
+import "./styles/paymentOptuins.css";
+import "./styles/prod-details-customisation.css";
+import "./styles/prod-details.css";
+import "./styles/payWithcard.css";

@@ -1,0 +1,150 @@
+.special-req-cont {
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+.special-req-box {
+  width: 100%;
+  background-color: #fff;
+  border: hidden;
+  border-radius: 12pt;
+  padding: 0;
+  overflow: hidden;
+}
+
+.special-req-box-dark {
+  background: #2c2f33 !important;
+  box-shadow: -5px -5px 15px rgba(59, 68, 81, 0.35),
+    5px 5px 15px rgba(0, 0, 0, 0.35) !important;
+  border: gray !important;
+}
+
+.sp-req-text {
+  /* padding: 4px 12px 4px 20px; */
+}
+
+.sp-req-text h5 {
+  font-size: 0.9rem;
+  font-family: "Overpass";
+  color: #404b69;
+}
+
+.sp-req-text-dark h5 {
+  color: white !important;
+}
+
+.sp-req-text .text-muted {
+  font-size: 0.8rem;
+  color: #8a8a8a;
+}
+
+.sp-req-btn {
+  background-color: #fcf0c6;
+  border-radius: 0 12pt 12pt 0;
+}
+
+.sp-req-btn:hover {
+  opacity: 0.8;
+}
+
+.qt-pr-container {
+  padding: 10px 25px 20px 25px;
+}
+
+.qt-pr-flexbox {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bill-details-container-border {
+  background-image: linear-gradient(
+    244.98deg,
+    #ffffff 29.81%,
+    rgba(219, 230, 242, 0) 53.04%,
+    #8f9fae 100%
+  );
+}
+
+.bill-details-container-border-dark {
+  background-image: linear-gradient(
+    244.98deg,
+    rgba(80, 89, 98, 0.4) 11.49%,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.4)
+  );
+}
+
+.bill-details-container {
+  padding: 20px;
+}
+
+.bill-details-inner {
+}
+
+.bill-amount-details-cont {
+  padding: 0 10px;
+}
+
+.bill-amount-details-cont-dark {
+  color: white;
+}
+
+.bill-det-amt-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 0;
+}
+
+.bill-det-amt-item p {
+  font-size: 0.8rem;
+  color: #404b69;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.bill-det-amt-item-dark p {
+  color: #d6e1ef;
+}
+
+.bill-details-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.bill-details-total p {
+  font-weight: bold;
+  font-size: 12px;
+  color: #404b69;
+  margin-bottom: 0;
+}
+
+.bill-details-total-dark p {
+  color: #d6e1ef;
+}
+
+.bill-hr {
+  color: #404b69;
+}
+
+.bill-hr-dark {
+  color: #fff;
+}
+
+.expand-carts {
+  color: #404b69;
+  transition: 0.3s;
+}
+
+.expand-carts p {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.expand-carts-dark {
+  color: white;
+}

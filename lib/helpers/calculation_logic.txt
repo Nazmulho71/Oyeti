@@ -1,0 +1,45 @@
+{
+            "item_id": 2117732,
+            "item_name": "Tiramisu Cream Frappuccino    ",
+            "item_price": 480,
+            "item_type": "Non-Veg",
+            "item_quantity": -1,
+            "description": "Delicious tiramisu sauce is combined with coffee and milk, and topped with tiramisu whipped cream, tiramisu sauce and coffee dust. A perfect coffee delight",
+            "item_total": "",
+            "offer": "",
+            "image_url": "",
+            "packing_charge": 10,
+            "gst": 5,
+            "is_sale": true,
+            "discount": 10,
+            "sizes": [
+              {
+                "item_size_id": 3996,
+                "item_size_name": "Venti",
+                "item_size_price": 490
+              },
+              {
+                "item_size_id": 3995,
+                "item_size_name": "Grande",
+                "item_size_price": 425
+              },
+              {
+                "item_size_id": 3994,
+                "item_size_name": "Tall",
+                "item_size_price": 390
+              }
+            ],
+            "images": [
+              
+            ],
+            "addons": [
+              
+            ]
+          }
+
+
+1 = flat discount present and item have sizes then we have to ignore dsicount 
+2 = flat discount present and item dees not have sizes then we have to add dsicount in item_price
+3 = If we have offer like (gogo) and also we have sizes then we have to add  to give lowest item in free
+4 = in qsr we have to inclide GST in every product item if (except from store)
+5 = Ingore GST in case of grcoery 

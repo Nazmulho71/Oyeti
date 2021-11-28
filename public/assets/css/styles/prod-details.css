@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600;700;800&display=swap");
+
+* {
+  /* overflow-x: hidden; */
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass";
+  text-align: left;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Overpass";
+} */
+
+.wrapper {
+  max-width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  background-color: #f8f6f2;
+  padding-bottom: 0px;
+}
+
+.header-wrapper {
+  position: relative;
+}
+
+.header-container {
+  padding: 0;
+  border-radius: 0 0 26pt 26pt;
+  overflow: hidden;
+  position: relative;
+}
+
+.header-container image {
+  max-width: 100%;
+}
+
+.header-nav {
+  position: absolute;
+  width: 100%;
+  top: 25px;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.header-nav img:hover {
+  opacity: 0.9;
+}
+
+.prod-intro-cont {
+  position: absolute;
+  padding: 25px 20px;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 90vw;
+  width: 100%;
+  background-color: #fff;
+  border: hidden;
+  border-radius: 20pt;
+  -webkit-box-shadow: 0px 0px 18px 0px #00000029;
+  -moz-box-shadow: 0px 0px 18px 0px #00000029;
+  box-shadow: 0px 0px 18px 0px #00000029;
+}
+
+.prod-name-cont .prod-name {
+  font-family: "Overpass";
+  font-weight: 900;
+  font-size: 1.1rem;
+  color: #404b69;
+}
+
+.prod-intro-cont .text-muted {
+  color: #8a8a8a !important;
+  font-size: 0.8rem;
+}
+
+.prod-intro-cont .text-muted i {
+  color: #ffc676;
+  font-size: 0.8rem;
+}
+
+.prod-price {
+  color: #404b69;
+  font-family: "Overpass";
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.prod-details-container {
+  padding: 60px 20px 10px 20px;
+}
+
+.prod-details-para {
+  padding: 10px 0;
+}
+
+.prod-details-para h4 {
+  font-family: "Overpass";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #404b69;
+}
+
+.prod-details-para p {
+  color: #444343;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.special-req-cont {
+  margin: 20px 0;
+  padding: 0 15px;
+}
+
+.special-req-box {
+  width: 100%;
+  background-color: #fff;
+  border: hidden;
+  border-radius: 12pt;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sp-req-text {
+  padding: 10px 0 10px 15px;
+}
+
+.sp-req-text h5 {
+  font-size: 0.9rem;
+  font-family: "Overpass";
+  font-weight: bold;
+  color: #404b69;
+}
+
+.sp-req-text .text-muted {
+  font-size: 0.8rem;
+  color: #8a8a8a;
+}
+
+.sp-req-btn {
+  background-color: #fcf0c6;
+  padding: 15px 25px 15px 30px;
+  border-radius: 0 12pt 12pt 0;
+}
+
+.sp-req-btn:hover {
+  opacity: 0.8;
+}
+
+.qt-pr-container {
+  padding: 10px 25px 20px 25px;
+}
+
+.qt-pr-flexbox {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.qty-btn-cont {
+  flex: 1;
+  border: 2pt solid #000000;
+  border-radius: 14pt;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 7px;
+  overflow: hidden;
+}
+
+.qty-btn-cont span {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.qty-btn-cont .btn-span:hover {
+  opacity: 0.6;
+}
+
+.qty-btn-cont .btn-span {
+  background-color: #f8f6f2;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.qty-btn-cont .qty-span {
+  font-weight: 900;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+.add-ord-btn {
+  margin-left: 7px;
+  /* flex: 1; */
+}
+
+.add-ord-btn button {
+  border: hidden;
+  border-radius: 14pt;
+  padding: 14px 10px;
+  background-color: #ffde4c;
+  color: #404b69;
+  font-family: "Overpass";
+  font-size: 0.95rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.add-ord-btn button:hover {
+  background-color: #ffde4cbd;
+}
+
+.onwards-text {
+  font-size: 0.8rem;
+  color: #404b69;
+  font-family: "Overpass";
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+.radio-btn-vcenter {
+  margin-top: -25px !important;
+}
+
+@media only screen and (max-width: 325px) {
+  .special-req-cont {
+    padding: 0 15px;
+  }
+  .sp-req-btn {
+    background-color: #fcf0c6;
+    padding: 15px 11px 15px 20px;
+    border-radius: 0 12pt 12pt 0;
+  }
+}

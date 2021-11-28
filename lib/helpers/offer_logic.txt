@@ -1,0 +1,10 @@
+1 = if offer_cat and parent_cat true => anything buy will lower will be free 
+2 = parent_cat true and offer_cat false then he must buy from offer_cat 
+3 = if offer_cat and parent_cat false =>  then he must buy from parent cat and then if buy from offer_cat then lowerst will be free 
+3 = if offer_cat and parent_cat false =>  then he must buy from parent cat and then check offer_cat if offer_cat  empty then check item_details one will free from item_details
+
+// direct discount 
+
+check promotional data first 
+then check bogo if taken then ignore direct offer 
+if bogo ignore then use durect offer 
